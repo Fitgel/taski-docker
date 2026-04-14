@@ -9,7 +9,7 @@ SECRET_KEY = 'django-insecure-j_89af+30&&4qm*8z9_(^zz8p4-ho8z_m6ylm0s$h!-p@on1_^
 DEBUG = True
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['localhost', '123.123.123.123', '<your_domain>']
+ALLOWED_HOSTS = ['localhost', '123.123.123.123', 'denzelprakk.hopto.org']
 
 
 # Application definition
@@ -68,7 +68,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 #     }
 # }
 
-# Заменили для токо чтобы при удалении контейнера база данных не удалялась
+# Заменили для того чтобы при удалении контейнера база данных не удалялась
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.sqlite3',
